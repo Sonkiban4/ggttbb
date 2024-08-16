@@ -899,3 +899,14 @@ button {
 .hnpgRH{
   font-size: small;
 }
+
+.mt-10{
+  width: 100%;
+  justify-content: center;
+}
+
+.inputContainer{
+  width:100%;
+  justify-center: center;
+  gap: 8px;
+}
