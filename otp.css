@@ -909,4 +909,23 @@ button {
   width:100%;
   justify-center: center;
   gap: 8px;
+  align-items: center;
+  display: flex;
 }
+.inputStyle {
+  border-radius: 8px;
+  font-size: 27px;
+  height: 56px;
+  width: 44px !important;
+}
+.inputStyle {
+  background-color: initial;
+  border: 1px solid #a3a3a3;
+  border-radius: 6px;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 600;
+  height: 40px;
+  outline: 0;
+  width: 50px !important;
+    }
